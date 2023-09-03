@@ -110,6 +110,19 @@ button:hover {
   display: flex;
   justify-content: space-between;
 }
+.success-animation{
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
+.success-span{
+  color: rgb(8, 207, 8);
+  font-weight: bold;
+}
+.error-span{
+  color: rgb(207, 22, 136);
+  font-weight: bold;
+}
 
 @media screen and (max-width: 768px) {
   .container {
